@@ -39,6 +39,7 @@ input, textarea, select, button {
     justify-content: center;
     --height: 56px;
 
+    cursor: pointer;
     min-width: 130px;
     height: var(--height);
     line-height: var(--height);
@@ -607,7 +608,7 @@ input, textarea, select, button {
     color: #5E6085;
 }
 
-.section-heading {
+.service__heading {
     margin: 15px 0 71px;
     text-align: center;
 }
@@ -697,6 +698,99 @@ input, textarea, select, button {
     font-size: 1.6rem;
     line-height: 1;
     color: #FF5B2E;
-    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
 
+/* ============ Member ============= */
+
+.member {
+    padding: 130px 0;
+}
+
+.member__heading {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.member__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 67px;
+    margin-top: 59px;
+}
+
+
+.member__section-avatar-wrap {
+    position: relative;
+    width: 234px;
+    height: 266px;
+    border-radius: 129.5px;
+}
+
+.member__item__avatar-wrap-1 {
+    background: linear-gradient(180deg, #90CCFF 0%, #59A8EB 95.96%);
+}
+
+.member__item__avatar-wrap-2 {
+    background: linear-gradient(180deg, #FF997E 0%, #F3752E 100%);
+}
+
+.member__item__avatar-wrap-3 {
+    background: linear-gradient(180deg, #FABF3E 0%, #FFA14A 100%);
+}
+.member__item__avatar-wrap-4 {
+    background: linear-gradient(180deg, #5BD6E2 0%, #00A7CC 100%);
+}
+
+.member__item__avatar {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    height: 299px;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.member__item__section-icon {
+    position: absolute;
+}
+
+.member__item__icon-1 {
+    bottom: -5px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.member__item__icon-2 {
+    top: -5px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.member__item__desc {
+    margin: 34px 0 14px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-align: center;
+    color: #656689;
+}
+
+.member__item__name {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    text-align: center;
+    color: #000958;
+}
+
+.member__action {
+    display: flex;
+    justify-content: center;
+}
+
+.member__action__link {
+    margin-top: 45px;
+}
